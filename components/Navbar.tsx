@@ -9,10 +9,10 @@ const Navbar = () => {
       <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4">
         <Link href="/" className="flex justify-center items-center">
           <Image
-            src="/logo.svg"
+            src="/logo.png"
             alt="Car Nirvana Logo"
-            width={118}
-            height={18}
+            width={200}
+            height={40}
             className="object-contain"
           />
         </Link>
