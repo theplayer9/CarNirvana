@@ -37,9 +37,12 @@ const SearchManufacturer = ({
           <Combobox.Input
             className="search-manufacturer__input"
             placeholder="Volkswagen"
-            // displayValue={(manufacturer: string) => manufacturer}
-          value={query}
-            onChange={(event) => setQuery(event.target.value)}
+            displayValue={(manufacturer: string) => manufacturer}
+            value={query}
+            onChange={(event) => {
+              console.log(event.target.value);
+              setQuery(event.target.value);
+            }}
           />
           <Transition
             as={Fragment}
